@@ -71,10 +71,6 @@ img {
   line-height: 1.5em;
 }
 
-.right-block {
-  flex-basis: 450px;
-}
-
 .header-title {
   font-size: 48px;
 }
@@ -85,4 +81,13 @@ img {
   color: #F9FAF8;
   display: inline-block;
   padding: 8px 30px;
+}
+
+.right-block {
+  flex-basis: 450px;
+}
+
+.right-block img {
+  border: 3px solid #F9FAF8;
+  border-radius: 8px;
 }
