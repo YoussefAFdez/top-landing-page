@@ -73,6 +73,7 @@ img {
 
 .header-title {
   font-size: 48px;
+  font-weight: 900;
 }
 
 .button {
@@ -90,4 +91,42 @@ img {
 .right-block img {
   border: 3px solid #F9FAF8;
   border-radius: 8px;
+}
+
+.gallery .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 50px 100px;
+}
+
+.gallery-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.gallery-items {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.gallery-items .item {
+  flex-basis: 150px;
+}
+
+.gallery-img {
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+  height: 150px;
+  margin-bottom: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.image-description {
+  text-align: center;
 }
