@@ -151,3 +151,35 @@ img {
   font-weight: bold;
   text-align: right;
 }
+
+.newsletter {
+  padding: 100px 0;
+}
+
+.newsletter .content-wrapper {
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.newsletter-info {
+  display: flex;
+  flex-basis: 70%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.newsletter-title {
+  color: #F9FAF8;
+}
+
+.newsletter-description {
+  color: #E5E7EB;
+}
+
+.button-reversed {
+  border: 2px solid #F9FAF8;
+}
