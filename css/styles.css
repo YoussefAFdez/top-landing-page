@@ -183,3 +183,10 @@ img {
 .button-reversed {
   border: 2px solid #F9FAF8;
 }
+
+.footer .content-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
